@@ -4,11 +4,12 @@
 
 /* Schrijf hier  jouw CSS! */
 
+
 /* Opdracht 2.1 */
 .one {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: end;
 }
 
 /* Opdracht 2.2 */
@@ -20,7 +21,7 @@
 
 /* Opdracht 2.3 */
 .three {
-    background-color: indianred;
+    /* background-color: #587B7F; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -28,11 +29,43 @@
 }
 
 ul {
-    background-color: peru;
+    /* background-color: #E2C044; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
-    flex-basis: 400px;
-    padding-left: 0px;
+    flex-basis: 250px;
+}
+
+/* Opdracht 2.4 */
+.four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: base-line;
+}
+
+/* Opdracht 2.5 */
+.five {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+article {
+    flex-basis: 360px;
+    flex-grow: 3;
 }
