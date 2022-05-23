@@ -66,6 +66,5 @@ label {
 }
 
 article {
-    flex-basis: 360px;
-    flex-grow: 3;
+    flex: 3 0 360px;
 }
